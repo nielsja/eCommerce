@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DPLRef.eCommerce.Contracts.Admin\DPLRef.eCommerce.Contracts.Admin.csproj" />
+    <ProjectReference Include="..\DPLRef.eCommerce.Contracts.BackOffice\DPLRef.eCommerce.Contracts.BackOfficeAdmin.csproj" />
+    <ProjectReference Include="..\DPLRef.eCommerce.Contracts.WebStore\DPLRef.eCommerce.Contracts.WebStore.csproj" />
+  </ItemGroup>
+
+</Project>
